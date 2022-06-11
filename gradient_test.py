@@ -11,4 +11,5 @@ with tf.GradientTape() as tape:
 
 gradients = tape.gradient(z, [w1, w2])
 
+print(gradients)
 print(gradients[1])
